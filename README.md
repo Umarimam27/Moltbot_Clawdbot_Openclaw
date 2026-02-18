@@ -1,6 +1,13 @@
 # Moltbot_Clawdbot_Openclaw
-AI-powered Telegram assistant inspired by OpenClaw, capable of real-time interaction, task automation, and intelligent responses using modern LLM integration and Python-based bot architecture.
-📌 OpenClaw: Adoption, Architecture, and Security Considerations 📈 Rapid Adoption and Community Signal Over a short period, OpenClaw has experienced unusually rapid adoption for an open-source AI project.
+# Open Claw Workshop -- https://www.youtube.com/shorts/-yntG5fdMbM
+
+# Live workshop -- https://www.youtube.com/watch?v=QdznP9S1wS0
+
+
+
+📌 OpenClaw: Adoption, Architecture, and Security Considerations
+📈 Rapid Adoption and Community Signal
+Over a short period, OpenClaw has experienced unusually rapid adoption for an open-source AI project.
 
 ⭐ 138,000+ GitHub stars
 
@@ -20,9 +27,13 @@ Custom hardening and modification
 
 Attempts to adapt the platform for internal or safer use cases
 
-🔍 Interpreting Forks vs Stars Metric What It Usually Signals Stars Interest, bookmarking, trend-following Forks Intent to modify, extend, or secure
+🔍 Interpreting Forks vs Stars
+Metric	What It Usually Signals
+Stars	Interest, bookmarking, trend-following
+Forks	Intent to modify, extend, or secure
 
-Forking does not improve the upstream repository unless changes are merged back. In security-sensitive systems, high fork counts may indicate developer concern as much as enthusiasm.
+Forking does not improve the upstream repository unless changes are merged back.
+In security-sensitive systems, high fork counts may indicate developer concern as much as enthusiasm.
 
 🧠 What OpenClaw Does
 
@@ -62,7 +73,8 @@ Some agents use a heartbeat pattern, periodically fetching and executing remote 
 
 This design enables powerful autonomy, but also introduces significant security risks if not carefully controlled.
 
-🔐 Security Implications Key Risk Factors
+🔐 Security Implications
+Key Risk Factors
 
 Agents may execute instructions fetched from the internet
 
@@ -74,9 +86,15 @@ Governance is typically user-assumed, not enforced by the framework
 
 If a coordinating service or remote instruction source is compromised, large numbers of agents could execute unintended or malicious actions.
 
-🧪 Comparison: Claude Skills vs OpenClaw Skills Aspect Claude Skills OpenClaw Skills Execution Sandboxed User infrastructure Permissions Provider-mediated Often shell-level Governance Provider-led User-assumed Failure Impact Bad output Real-world side effects
+🧪 Comparison: Claude Skills vs OpenClaw Skills
+Aspect	Claude Skills	OpenClaw Skills
+Execution	Sandboxed	User infrastructure
+Permissions	Provider-mediated	Often shell-level
+Governance	Provider-led	User-assumed
+Failure Impact	Bad output	Real-world side effects
 
-The skills architecture is sound. The critical difference lies in where and how execution occurs.
+The skills architecture is sound.
+The critical difference lies in where and how execution occurs.
 
 🚨 Observed Security Exposure
 
@@ -174,34 +192,22 @@ Treat agent environments as production systems
 
 📚 References & Further Reading
 
-Simon Willison’s analysis https://simonwillison.net/2026/Jan/30/moltbook/
+Simon Willison’s analysis
+https://simonwillison.net/2026/Jan/30/moltbook/
 
-404 Media investigation https://www.404media.co/exposed-moltbook-database-let-anyone-take-control-of-any-ai-agent-on-the-site/
+404 Media investigation
+https://www.404media.co/exposed-moltbook-database-let-anyone-take-control-of-any-ai-agent-on-the-site/
 
-OpenClaw GitHub https://github.com/openclaw/openclaw
+OpenClaw GitHub
+https://github.com/openclaw/openclaw
 
-OpenClaw Docs https://docs.openclaw.ai/
+OpenClaw Docs
+https://docs.openclaw.ai/
 
-Dark Reading coverage https://www.darkreading.com/application-security/openclaw-ai-runs-wild-business-environments
+Dark Reading coverage
+https://www.darkreading.com/application-security/openclaw-ai-runs-wild-business-environments
 
-Linkedin https://www.linkedin.com/news/story/openclaw-assistant-gains-popularity-raises-security-worries-6972340/
+Linkedin
+https://www.linkedin.com/news/story/openclaw-assistant-gains-popularity-raises-security-worries-6972340/
 
-About
-Open Claw Workshop
 
-Resources
- Readme
- Activity
-Stars
- 3 stars
-Watchers
- 1 watching
-Forks
- 1 fork
-Report repository
-Releases
-No releases published
-Packages
-No packages published
-Footer
-©
