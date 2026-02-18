@@ -1,4 +1,9 @@
+
 # Moltbot_Clawdbot_Openclaw
+
+https://github.com/user-attachments/assets/3877d277-86a3-4ae7-b2cc-de1e55f48c41
+
+
 # Open Claw Workshop -- https://www.youtube.com/shorts/-yntG5fdMbM
 
 # Live workshop -- https://www.youtube.com/watch?v=QdznP9S1wS0
